@@ -3,32 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dra. Luz Ángela Castañeda (@drluzangelacastaneda) | Dermatología Clínica y Estética en Cali</title>
-  <meta name="description" content="Dra. Luz Ángela Castañeda (@drluzangelacastaneda), médica especialista en Dermatología Clínica y Estética en Cali. Consulta particular especializada en acné, melasma, rosácea, alopecia, lunares, Bótox y bioestimuladores." />
-  <meta name="keywords" content="drluzangelacastaneda, Dra. Luz Ángela Castañeda, Dermatóloga en Cali, Dermatología Clínica Cali, Dermatología Estética Cali, Bótox Cali, Bioestimuladores de colágeno, Acné, Melasma, Rosácea, Alopecia" />
-  <meta name="author" content="Dra. Luz Ángela Castañeda" />
+  <title>Dra. Luz Angela Castañeda | Dermatóloga - Univalle | Cali</title>
+  <meta name="description" content="Dra. Luz Angela Castañeda (@drluzangelacastaneda), Dermatóloga - Univalle en Cali. Especialista en Dermatología Clínica y Estética: acné, melasma, rosácea, alopecia, lunares, Bótox y bioestimuladores." />
+  <meta name="keywords" content="drluzangelacastaneda, Dra. Luz Angela Castañeda, Dermatóloga Univalle, Dermatóloga en Cali, Dermatología Clínica Cali, Dermatología Estética Cali, Bótox Cali, Bioestimuladores de colágeno, Acné, Melasma" />
+  <meta name="author" content="Dra. Luz Angela Castañeda" />
+  <link rel="icon" type="image/jpeg" href="logo.jpeg" />
 
   <!-- Open Graph para compartir en WhatsApp y Redes Sociales -->
-  <meta property="og:title" content="Dra. Luz Ángela Castañeda | Dermatología Clínica y Estética en Cali" />
-  <meta property="og:description" content="Diagnóstico y tratamiento especializado de piel, pelo y uñas. Armonización natural con Bótox y bioestimuladores de colágeno en Cali. @drluzangelacastaneda" />
+  <meta property="og:title" content="Dra. Luz Angela Castañeda | Dermatóloga - Univalle" />
+  <meta property="og:description" content="Dermatología Clínica y Estética en Cali. Diagnóstico y tratamiento de piel, pelo y uñas. Armonización natural con Bótox y bioestimuladores. @drluzangelacastaneda" />
+  <meta property="og:image" content="logo.jpeg" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_CO" />
 
-  <!-- Tipografías Google Fonts -->
+  <!-- Tipografía geométrica fiel a Futura Light & Futura Bold (Manual de Identidad) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Datos Estructurados SEO Local (Schema.org Médico Profesional Independiente) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Physician",
-    "name": "Dra. Luz Ángela Castañeda",
+    "name": "Dra. Luz Angela Castañeda",
     "alternateName": "drluzangelacastaneda",
+    "description": "Dermatóloga - Univalle. Médico especialista en Dermatología con enfoque integral clínico y estético en Cali.",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Universidad del Valle (Univalle)"
+    },
     "medicalSpecialty": "Dermatology",
-    "description": "Médico especialista en Dermatología con enfoque integral clínico y estético en Cali. Diagnóstico y tratamiento de piel, pelo y uñas, Bótox y bioestimuladores.",
     "telephone": "+573043953075",
+    "image": "logo.jpeg",
     "sameAs": [
       "https://www.instagram.com/drluzangelacastaneda/"
     ],
@@ -44,19 +51,20 @@
 
   <style>
     :root {
-      --bg-main: #FAF8F5;
-      --bg-card: #FFFFFF;
-      --bg-accent-soft: #EEF3F0;
-      --primary: #2E5A4C;
-      --primary-dark: #214237;
-      --secondary: #B89768;
-      --text-dark: #1F2624;
-      --text-muted: #5A6561;
-      --border-soft: #E4DFD7;
+      /* Paleta Oficial Manual de Identidad Corporativa */
+      --corp-magenta: #AF006C;      /* R:175 G:0 B:108 */
+      --corp-plum: #38122A;         /* R:56 G:18 B:42 */
+      --corp-rose: #BD5D90;         /* Rosa medio logotipo */
+      --corp-blush: #E0BDD0;        /* R:224 G:189 B:208 */
+      --corp-blush-soft: #F9F2F6;   /* Tinte suave para fondos limpios */
+      --bg-white: #FFFFFF;
+      --text-dark: #2A1622;
+      --text-muted: #5F4B57;
+      --border-soft: #ECD9E4;
       --whatsapp: #25D366;
       --whatsapp-dark: #1EBE5D;
-      --radius: 16px;
-      --shadow: 0 12px 32px rgba(31, 38, 36, 0.06);
+      --radius: 18px;
+      --shadow: 0 12px 32px rgba(56, 18, 42, 0.08);
     }
 
     * {
@@ -67,17 +75,19 @@
     }
 
     body {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      background-color: var(--bg-main);
+      font-family: 'Jost', 'Futura', sans-serif;
+      font-weight: 400;
+      background-color: var(--bg-white);
       color: var(--text-dark);
       line-height: 1.65;
       overflow-x: hidden;
     }
 
-    h1, h2, h3, .serif {
-      font-family: 'Cormorant Garamond', serif;
+    h1, h2, h3, h4 {
+      font-family: 'Jost', 'Futura', sans-serif;
       font-weight: 700;
-      line-height: 1.15;
+      line-height: 1.18;
+      color: var(--corp-plum);
     }
 
     a {
@@ -91,12 +101,12 @@
       margin: 0 auto;
     }
 
-    /* Navegación */
+    /* Encabezado con Área de Reserva Blanca para el Logo (Manual pág. 8) */
     header {
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(250, 248, 245, 0.92);
+      background: rgba(255, 255, 255, 0.96);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border-soft);
     }
@@ -105,28 +115,40 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 0;
+      padding: 0.75rem 0;
     }
 
     .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+    }
+
+    .brand-logo {
+      height: 62px;
+      width: auto;
+      display: block;
+      object-fit: contain;
+    }
+
+    .brand-text {
       display: flex;
       flex-direction: column;
     }
 
     .brand-name {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.45rem;
+      font-size: 1.25rem;
       font-weight: 700;
-      color: var(--primary);
+      color: var(--corp-plum);
       letter-spacing: 0.2px;
     }
 
     .brand-sub {
-      font-size: 0.72rem;
+      font-size: 0.8rem;
+      font-weight: 300;
+      letter-spacing: 1.2px;
+      color: var(--corp-magenta);
       text-transform: uppercase;
-      letter-spacing: 1.6px;
-      color: var(--secondary);
-      font-weight: 600;
     }
 
     nav ul {
@@ -137,34 +159,35 @@
     }
 
     nav a {
-      font-size: 0.92rem;
+      font-size: 0.94rem;
       font-weight: 500;
-      color: var(--text-dark);
+      color: var(--corp-plum);
       transition: color 0.2s;
     }
 
     nav a:hover {
-      color: var(--primary);
+      color: var(--corp-magenta);
     }
 
     .btn-nav {
-      background-color: var(--primary);
+      background-color: var(--corp-magenta);
       color: #fff !important;
-      padding: 0.65rem 1.25rem;
+      padding: 0.65rem 1.35rem;
       border-radius: 50px;
       font-weight: 600;
-      font-size: 0.88rem;
+      font-size: 0.9rem;
       transition: background 0.25s, transform 0.2s;
     }
 
     .btn-nav:hover {
-      background-color: var(--primary-dark);
+      background-color: var(--corp-plum);
       transform: translateY(-1px);
     }
 
     /* Hero Section */
     .hero {
-      padding: 4.5rem 0 5rem;
+      padding: 4rem 0 5rem;
+      background: linear-gradient(180deg, var(--bg-white) 0%, var(--corp-blush-soft) 100%);
     }
 
     .hero-grid {
@@ -176,32 +199,37 @@
 
     .badge {
       display: inline-block;
-      background-color: var(--bg-accent-soft);
-      color: var(--primary);
-      padding: 0.45rem 1rem;
+      background-color: var(--corp-blush);
+      color: var(--corp-plum);
+      padding: 0.42rem 1.05rem;
       border-radius: 50px;
-      font-size: 0.82rem;
+      font-size: 0.84rem;
       font-weight: 600;
       letter-spacing: 0.5px;
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.2rem;
     }
 
     .hero h1 {
-      font-size: clamp(2.5rem, 4.5vw, 3.75rem);
-      color: var(--text-dark);
-      margin-bottom: 1.25rem;
+      font-size: clamp(2.25rem, 4vw, 3.35rem);
+      color: var(--corp-plum);
+      margin-bottom: 1.15rem;
     }
 
     .hero h1 span {
-      color: var(--primary);
-      font-style: italic;
+      color: var(--corp-magenta);
     }
 
     .hero p {
       font-size: 1.06rem;
+      font-weight: 300;
       color: var(--text-muted);
       margin-bottom: 2rem;
       max-width: 580px;
+    }
+
+    .hero p strong {
+      font-weight: 600;
+      color: var(--corp-plum);
     }
 
     .hero-actions {
@@ -212,28 +240,28 @@
     }
 
     .btn-primary {
-      background-color: var(--primary);
+      background-color: var(--corp-magenta);
       color: #fff;
-      padding: 0.95rem 1.85rem;
+      padding: 0.95rem 1.9rem;
       border-radius: 50px;
       font-weight: 600;
       font-size: 0.96rem;
       display: inline-flex;
       align-items: center;
       gap: 0.6rem;
-      box-shadow: 0 8px 20px rgba(46, 90, 76, 0.22);
+      box-shadow: 0 8px 22px rgba(175, 0, 108, 0.25);
       transition: all 0.25s ease;
     }
 
     .btn-primary:hover {
-      background-color: var(--primary-dark);
+      background-color: var(--corp-plum);
       transform: translateY(-2px);
     }
 
     .btn-outline {
-      border: 1.5px solid var(--primary);
-      color: var(--primary);
-      padding: 0.9rem 1.65rem;
+      border: 1.5px solid var(--corp-magenta);
+      color: var(--corp-magenta);
+      padding: 0.9rem 1.7rem;
       border-radius: 50px;
       font-weight: 600;
       font-size: 0.95rem;
@@ -241,14 +269,16 @@
     }
 
     .btn-outline:hover {
-      background-color: var(--bg-accent-soft);
+      background-color: var(--corp-blush);
+      color: var(--corp-plum);
+      border-color: var(--corp-blush);
     }
 
     .hero-highlights {
       display: flex;
       flex-wrap: wrap;
-      gap: 2rem;
-      margin-top: 2.5rem;
+      gap: 2.2rem;
+      margin-top: 2.4rem;
       padding-top: 1.75rem;
       border-top: 1px solid var(--border-soft);
     }
@@ -256,11 +286,13 @@
     .highlight-item strong {
       display: block;
       font-size: 1.05rem;
-      color: var(--primary);
+      font-weight: 700;
+      color: var(--corp-magenta);
     }
 
     .highlight-item span {
-      font-size: 0.84rem;
+      font-size: 0.88rem;
+      font-weight: 300;
       color: var(--text-muted);
     }
 
@@ -273,7 +305,7 @@
       overflow: hidden;
       box-shadow: var(--shadow);
       border: 6px solid #fff;
-      background-color: var(--bg-accent-soft);
+      background-color: var(--corp-blush);
     }
 
     .hero-photo-frame img {
@@ -291,20 +323,21 @@
       background: #fff;
       padding: 1rem 1.35rem;
       border-radius: 14px;
-      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.09);
-      border-left: 4px solid var(--secondary);
-      max-width: 265px;
+      box-shadow: 0 12px 28px rgba(56, 18, 42, 0.12);
+      border-left: 4px solid var(--corp-magenta);
+      max-width: 270px;
     }
 
     .floating-card p {
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       margin: 0;
-      color: var(--text-dark);
-      font-weight: 600;
+      color: var(--corp-plum);
+      font-weight: 700;
     }
 
     .floating-card span {
-      font-size: 0.78rem;
+      font-size: 0.82rem;
+      font-weight: 300;
       color: var(--text-muted);
     }
 
@@ -320,35 +353,36 @@
     }
 
     .section-tag {
-      color: var(--secondary);
+      color: var(--corp-magenta);
       text-transform: uppercase;
-      letter-spacing: 1.8px;
-      font-size: 0.78rem;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
       font-weight: 700;
       display: block;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.45rem;
     }
 
     .section-header h2 {
-      font-size: clamp(2rem, 3.5vw, 2.8rem);
-      color: var(--text-dark);
-      margin-bottom: 0.8rem;
+      font-size: clamp(1.95rem, 3.4vw, 2.65rem);
+      color: var(--corp-plum);
+      margin-bottom: 0.75rem;
     }
 
     .section-header p {
       color: var(--text-muted);
-      font-size: 1rem;
+      font-weight: 300;
+      font-size: 1.02rem;
     }
 
     /* Sobre la Doctora */
     .about-section {
-      background-color: #fff;
+      background-color: var(--bg-white);
       border-top: 1px solid var(--border-soft);
       border-bottom: 1px solid var(--border-soft);
     }
 
     .about-box {
-      background: var(--bg-main);
+      background: var(--corp-blush-soft);
       border-radius: 22px;
       padding: 3rem;
       border: 1px solid var(--border-soft);
@@ -359,14 +393,20 @@
     }
 
     .about-box h3 {
-      font-size: 2.1rem;
-      color: var(--primary);
+      font-size: 1.95rem;
+      color: var(--corp-plum);
       margin-bottom: 1rem;
     }
 
     .about-box p {
       color: var(--text-muted);
+      font-weight: 300;
       margin-bottom: 1rem;
+    }
+
+    .about-box p strong {
+      font-weight: 600;
+      color: var(--corp-plum);
     }
 
     .social-pill {
@@ -374,19 +414,20 @@
       align-items: center;
       gap: 0.5rem;
       margin-top: 0.5rem;
-      padding: 0.55rem 1.1rem;
+      padding: 0.6rem 1.2rem;
       background-color: #fff;
-      border: 1px solid var(--border-soft);
+      border: 1.5px solid var(--corp-rose);
       border-radius: 50px;
-      font-size: 0.88rem;
+      font-size: 0.9rem;
       font-weight: 600;
-      color: var(--primary);
+      color: var(--corp-magenta);
       transition: all 0.2s;
     }
 
     .social-pill:hover {
-      border-color: var(--primary);
-      background-color: var(--bg-accent-soft);
+      background-color: var(--corp-magenta);
+      border-color: var(--corp-magenta);
+      color: #fff;
     }
 
     .pillars {
@@ -396,24 +437,30 @@
 
     .pillar {
       background: #fff;
-      padding: 1.25rem 1.4rem;
+      padding: 1.25rem 1.45rem;
       border-radius: 14px;
       border: 1px solid var(--border-soft);
+      border-left: 3px solid var(--corp-rose);
     }
 
     .pillar h4 {
-      font-size: 1rem;
-      color: var(--primary);
+      font-size: 1.02rem;
+      color: var(--corp-plum);
       margin-bottom: 0.3rem;
     }
 
     .pillar p {
-      font-size: 0.88rem;
+      font-size: 0.9rem;
+      font-weight: 300;
       margin: 0;
       color: var(--text-muted);
     }
 
     /* Servicios */
+    .services-section {
+      background-color: var(--corp-blush-soft);
+    }
+
     .services-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -421,7 +468,7 @@
     }
 
     .service-category {
-      background: var(--bg-card);
+      background: var(--bg-white);
       border-radius: var(--radius);
       padding: 2.4rem;
       box-shadow: var(--shadow);
@@ -432,58 +479,62 @@
     }
 
     .service-category h3 {
-      font-size: 1.95rem;
-      color: var(--primary);
+      font-size: 1.85rem;
+      color: var(--corp-plum);
       margin-bottom: 0.6rem;
     }
 
     .service-intro {
       color: var(--text-muted);
-      font-size: 0.94rem;
+      font-weight: 300;
+      font-size: 0.96rem;
       margin-bottom: 1.5rem;
     }
 
     .service-list {
       list-style: none;
       display: grid;
-      gap: 0.9rem;
+      gap: 0.95rem;
       margin-bottom: 1.8rem;
     }
 
     .service-list li {
       padding-left: 1.5rem;
       position: relative;
-      font-size: 0.95rem;
+      font-size: 0.96rem;
+      font-weight: 300;
     }
 
     .service-list li::before {
       content: "✦";
       position: absolute;
       left: 0;
-      color: var(--secondary);
+      color: var(--corp-magenta);
       font-size: 0.85rem;
     }
 
     .service-list strong {
-      color: var(--text-dark);
+      font-weight: 600;
+      color: var(--corp-plum);
     }
 
     .card-link {
-      color: var(--primary);
+      color: var(--corp-magenta);
       font-weight: 600;
-      font-size: 0.92rem;
+      font-size: 0.94rem;
       display: inline-flex;
       align-items: center;
       gap: 0.4rem;
     }
 
     .card-link:hover {
+      color: var(--corp-plum);
       text-decoration: underline;
     }
 
-    /* Contacto y Citas */
+    /* Contacto y Citas (Fondo Corporativo Oscuro R:56 G:18 B:42 + Magenta R:175 G:0 B:108) */
     .contact-card {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      background: linear-gradient(135deg, var(--corp-plum) 0%, #5B1240 60%, var(--corp-magenta) 100%);
       color: #fff;
       border-radius: 24px;
       padding: 3.5rem;
@@ -491,17 +542,20 @@
       grid-template-columns: 1.2fr 0.8fr;
       gap: 2.5rem;
       align-items: center;
+      box-shadow: var(--shadow);
     }
 
     .contact-card h2 {
-      font-size: clamp(2rem, 3.2vw, 2.7rem);
+      font-size: clamp(1.9rem, 3.2vw, 2.55rem);
+      color: #fff;
       margin-bottom: 1rem;
     }
 
     .contact-card p {
-      color: rgba(255, 255, 255, 0.86);
+      color: rgba(255, 255, 255, 0.88);
+      font-weight: 300;
       margin-bottom: 1.8rem;
-      font-size: 1rem;
+      font-size: 1.02rem;
     }
 
     .contact-buttons {
@@ -512,8 +566,8 @@
     }
 
     .contact-details {
-      background: rgba(255, 255, 255, 0.09);
-      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(224, 189, 208, 0.3);
       border-radius: 16px;
       padding: 1.8rem;
     }
@@ -530,13 +584,13 @@
       display: block;
       font-size: 0.78rem;
       text-transform: uppercase;
-      letter-spacing: 1px;
-      color: #D7C2A3;
+      letter-spacing: 1.2px;
+      color: var(--corp-blush);
       margin-bottom: 0.2rem;
     }
 
     .detail-row strong {
-      font-size: 1.02rem;
+      font-size: 1.04rem;
       font-weight: 600;
     }
 
@@ -547,7 +601,7 @@
     .btn-whatsapp-big {
       background-color: var(--whatsapp);
       color: #fff;
-      padding: 1rem 1.8rem;
+      padding: 1rem 1.85rem;
       border-radius: 50px;
       font-weight: 700;
       font-size: 0.98rem;
@@ -563,9 +617,9 @@
     }
 
     .btn-social-light {
-      border: 1.5px solid rgba(255, 255, 255, 0.5);
+      border: 1.5px solid var(--corp-blush);
       color: #fff;
-      padding: 0.95rem 1.6rem;
+      padding: 0.95rem 1.65rem;
       border-radius: 50px;
       font-weight: 600;
       font-size: 0.95rem;
@@ -573,7 +627,7 @@
     }
 
     .btn-social-light:hover {
-      background: rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.14);
     }
 
     /* Botón flotante WhatsApp */
@@ -583,10 +637,10 @@
       right: 24px;
       background-color: var(--whatsapp);
       color: #fff;
-      padding: 0.85rem 1.3rem;
+      padding: 0.85rem 1.35rem;
       border-radius: 50px;
       font-weight: 600;
-      font-size: 0.92rem;
+      font-size: 0.94rem;
       box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
       display: flex;
       align-items: center;
@@ -599,16 +653,26 @@
       transform: scale(1.04);
     }
 
+    /* Footer con Logo sobre fondo blanco respetando el Manual */
     footer {
+      background-color: var(--bg-white);
       text-align: center;
-      padding: 2.2rem 0;
-      font-size: 0.86rem;
+      padding: 2.6rem 0;
+      font-size: 0.9rem;
+      font-weight: 300;
       color: var(--text-muted);
       border-top: 1px solid var(--border-soft);
     }
 
+    .footer-logo {
+      height: 76px;
+      width: auto;
+      margin: 0 auto 0.9rem;
+      display: block;
+    }
+
     footer a {
-      color: var(--primary);
+      color: var(--corp-magenta);
       font-weight: 600;
     }
 
@@ -643,12 +707,15 @@
 </head>
 <body>
 
-  <!-- Encabezado -->
+  <!-- Encabezado con Logo Oficial y Nombre Obligatorio según Manual -->
   <header>
     <div class="container nav-wrap">
       <a href="#" class="brand">
-        <span class="brand-name">Dra. Luz Ángela Castañeda</span>
-        <span class="brand-sub">Dermatología Clínica &amp; Estética</span>
+        <img src="logo.jpeg" alt="Logo Dra. Luz Angela Castañeda - Dermatología" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-name">Dra. Luz Angela Castañeda</span>
+          <span class="brand-sub">Dermatóloga - Univalle</span>
+        </div>
       </a>
       <nav>
         <ul>
@@ -657,7 +724,7 @@
           <li><a href="https://www.instagram.com/drluzangelacastaneda/" target="_blank" rel="noopener">@drluzangelacastaneda</a></li>
           <li><a href="#contacto">Cali</a></li>
           <li>
-            <a class="btn-nav" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20%C3%81ngela,%20quisiera%20agendar%20una%20consulta%20dermatol%C3%B3gica." target="_blank" rel="noopener">
+            <a class="btn-nav" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20Angela,%20quisiera%20agendar%20una%20consulta%20dermatol%C3%B3gica." target="_blank" rel="noopener">
               Agendar Cita
             </a>
           </li>
@@ -670,13 +737,13 @@
   <section class="hero">
     <div class="container hero-grid">
       <div>
-        <span class="badge">Consulta Dermatológica Especializada en Cali</span>
+        <span class="badge">Dermatóloga - Univalle · Atención en Cali</span>
         <h1>Salud dermatológica y <span>armonización natural</span> para tu piel</h1>
         <p>
-          Soy la <strong>Dra. Luz Ángela Castañeda</strong>, médico especialista en Dermatología con enfoque integral clínico y estético. Te acompaño en el diagnóstico preciso de enfermedades de la piel, pelo y uñas, así como en tratamientos estéticos preventivos con resultados naturales y seguros.
+          Soy la <strong>Dra. Luz Angela Castañeda</strong>, médico especialista en Dermatología egresada de la <strong>Universidad del Valle (Univalle)</strong> con enfoque integral clínico y estético en Cali. Te acompaño en el diagnóstico preciso de enfermedades de la piel, pelo y uñas, así como en tratamientos estéticos preventivos con resultados naturales.
         </p>
         <div class="hero-actions">
-          <a class="btn-primary" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20%C3%81ngela,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20para%20agendar%20una%20cita%20en%20Cali." target="_blank" rel="noopener">
+          <a class="btn-primary" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20Angela,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20para%20agendar%20una%20cita%20en%20Cali." target="_blank" rel="noopener">
             Agendar por WhatsApp
           </a>
           <a class="btn-outline" href="#servicios">Explorar Tratamientos</a>
@@ -696,11 +763,11 @@
 
       <div class="hero-media">
         <div class="hero-photo-frame">
-          <img src="procedimiento.jpg" alt="Dra. Luz Ángela Castañeda realizando procedimiento dermatológico especializado en Cali" />
+          <img src="procedimiento.jpg" alt="Dra. Luz Angela Castañeda realizando procedimiento dermatológico especializado en Cali" />
         </div>
         <div class="floating-card">
-          <p>Enfoque Médico Integral</p>
-          <span>Protocolos personalizados basados en evidencia científica</span>
+          <p>Dra. Luz Angela Castañeda</p>
+          <span>Dermatóloga - Univalle · Protocolos médicos personalizados</span>
         </div>
       </div>
     </div>
@@ -714,24 +781,24 @@
           <span class="section-tag">Perfil Profesional</span>
           <h3>Ciencia dermatológica y cuidado personalizado</h3>
           <p>
-            Cada piel tiene una historia y necesidades únicas. Mi práctica médica en <strong>Cali</strong> integra el rigor diagnóstico de la dermatología clínica con técnicas estéticas mínimamente invasivas diseñadas para preservar la expresión y salud natural del paciente.
+            Cada piel tiene una historia y necesidades únicas. Como <strong>Dermatóloga - Univalle</strong>, mi práctica médica en <strong>Cali</strong> integra el rigor diagnóstico de la dermatología clínica con técnicas estéticas mínimamente invasivas diseñadas para preservar la expresión y salud natural del paciente.
           </p>
           <p>
             Desde el control médico de patologías cutáneas hasta la bioestimulación de colágeno, cada valoración comienza con un examen detallado para ofrecerte un plan terapéutico claro, honesto y seguro.
           </p>
           <a class="social-pill" href="https://www.instagram.com/drluzangelacastaneda/" target="_blank" rel="noopener">
-            Sígueme en redes: @drluzangelacastaneda ↗
+            Síguenos en redes: @drluzangelacastaneda ↗
           </a>
         </div>
 
         <div class="pillars">
           <div class="pillar">
-            <h4>Diagnóstico Clínico Especializado</h4>
-            <p>Evaluación integral de afecciones agudas y crónicas de piel, cuero cabelludo y uñas, incluyendo control dermatoscópico de lunares.</p>
+            <h4>Respaldo Académico Univalle</h4>
+            <p>Formación especializada en diagnóstico y manejo integral de patologías de piel, pelo y uñas.</p>
           </div>
           <div class="pillar">
             <h4>Resultados Naturales y Preventivos</h4>
-            <p>Armonización facial sutil que mejora la calidad, firmeza e hidratación de la piel sin alterar tus facciones.</p>
+            <p>Armonización facial sutil con inyectables que mejora la calidad, firmeza e hidratación de la piel sin alterar tus facciones.</p>
           </div>
           <div class="pillar">
             <h4>Atención Médica Directa en Cali</h4>
@@ -743,7 +810,7 @@
   </section>
 
   <!-- Servicios -->
-  <section id="servicios">
+  <section id="servicios" class="services-section">
     <div class="container">
       <div class="section-header">
         <span class="section-tag">Áreas de Especialidad</span>
@@ -768,7 +835,7 @@
               <li><strong>Control Dermatoscópico de Lunares:</strong> Evaluación preventiva y seguimiento de lesiones pigmentadas.</li>
             </ul>
           </div>
-          <a class="card-link" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20%C3%81ngela,%20quisiera%20agendar%20una%20consulta%20de%20Dermatolog%C3%ADa%20Cl%C3%ADnica." target="_blank" rel="noopener">
+          <a class="card-link" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20Angela,%20quisiera%20agendar%20una%20consulta%20de%20Dermatolog%C3%ADa%20Cl%C3%ADnica." target="_blank" rel="noopener">
             Consultar valoración clínica →
           </a>
         </div>
@@ -788,7 +855,7 @@
               <li><strong>Planes de Rejuvenecimiento Preventivo:</strong> Combinación médica personalizada según la edad y tipo de piel.</li>
             </ul>
           </div>
-          <a class="card-link" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20%C3%81ngela,%20quisiera%20informaci%C3%B3n%20sobre%20tratamientos%20de%20Dermatolog%C3%ADa%20Est%C3%A9tica." target="_blank" rel="noopener">
+          <a class="card-link" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20Angela,%20quisiera%20informaci%C3%B3n%20sobre%20tratamientos%20de%20Dermatolog%C3%ADa%20Est%C3%A9tica." target="_blank" rel="noopener">
             Consultar valoración estética →
           </a>
         </div>
@@ -803,10 +870,10 @@
         <div>
           <h2>Agenda tu consulta dermatológica en Cali</h2>
           <p>
-            Escríbenos directamente por WhatsApp para conocer disponibilidad de horarios, resolver tus dudas iniciales y programar tu valoración médica con la Dra. Luz Ángela Castañeda.
+            Escríbenos directamente por WhatsApp para conocer disponibilidad de horarios, resolver tus dudas iniciales y programar tu valoración médica con la Dra. Luz Angela Castañeda.
           </p>
           <div class="contact-buttons">
-            <a class="btn-whatsapp-big" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20%C3%81ngela,%20deseo%20agendar%20una%20cita%20de%20dermatolog%C3%ADa." target="_blank" rel="noopener">
+            <a class="btn-whatsapp-big" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20Angela,%20deseo%20agendar%20una%20cita%20de%20dermatolog%C3%ADa." target="_blank" rel="noopener">
               Escribir al +57 304 395 3075
             </a>
             <a class="btn-social-light" href="https://www.instagram.com/drluzangelacastaneda/" target="_blank" rel="noopener">
@@ -818,19 +885,19 @@
         <div class="contact-details">
           <div class="detail-row">
             <span>Médica Especialista</span>
-            <strong>Dra. Luz Ángela Castañeda</strong>
+            <strong>Dra. Luz Angela Castañeda</strong>
+          </div>
+          <div class="detail-row">
+            <span>Formación</span>
+            <strong>Dermatóloga - Univalle</strong>
           </div>
           <div class="detail-row">
             <span>Redes Oficiales</span>
             <strong><a href="https://www.instagram.com/drluzangelacastaneda/" target="_blank" rel="noopener">@drluzangelacastaneda</a></strong>
           </div>
           <div class="detail-row">
-            <span>Ciudad de Atención</span>
-            <strong>Cali, Valle del Cauca - Colombia</strong>
-          </div>
-          <div class="detail-row">
-            <span>WhatsApp Citas</span>
-            <strong>+57 304 395 3075</strong>
+            <span>Ciudad &amp; WhatsApp</span>
+            <strong>Cali · +57 304 395 3075</strong>
           </div>
         </div>
       </div>
@@ -838,14 +905,16 @@
   </section>
 
   <!-- Botón Flotante WhatsApp -->
-  <a class="whatsapp-float" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20%C3%81ngela,%20quisiera%20agendar%20una%20cita." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <a class="whatsapp-float" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20Angela,%20quisiera%20agendar%20una%20cita." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
     WhatsApp Citas
   </a>
 
   <footer>
     <div class="container">
+      <img src="logo.jpeg" alt="Dra. Luz Angela Castañeda - Dermatología" class="footer-logo" />
       <p>
-        © 2026 Dra. Luz Ángela Castañeda · Dermatología Clínica y Estética · Cali, Colombia · 
+        <strong>Dra. Luz Angela Castañeda</strong> · Dermatóloga - Univalle · Cali, Colombia<br>
+        © 2026 Todos los derechos reservados · 
         <a href="https://www.instagram.com/drluzangelacastaneda/" target="_blank" rel="noopener">@drluzangelacastaneda</a>
       </p>
     </div>
