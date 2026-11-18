@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dra. Luz Angela Castañeda | Dermatóloga - Univalle | San Fernando Viejo, Cali</title>
-  <meta name="description" content="Dra. Luz Angela Castañeda (@drluzangelacastaneda), Dermatóloga - Univalle en Cali. Consultorio en Clínica O'Byrne, Cra 26 # 2 - 38, Barrio San Fernando Viejo. Dermatología Clínica y Estética." />
-  <meta name="keywords" content="drluzangelacastaneda, Dra. Luz Angela Castañeda, Dermatóloga Univalle, Dermatóloga en Cali, Dermatóloga San Fernando Cali, Clínica O'Byrne Cali, Cra 26 2-38 Cali, Bótox Cali, Bioestimuladores, Alopecia, Manchas" />
+  <meta name="description" content="Dra. Luz Angela Castañeda (@drluzangelacastaneda), Dermatóloga - Univalle en Cali. Consultorio en Clínica O'Byrne, Cra 26 # 2 - 38, Barrio San Fernando Viejo. Dermatología Clínica, Estética y Quirúrgica." />
+  <meta name="keywords" content="drluzangelacastaneda, Dra. Luz Angela Castañeda, Dermatóloga Univalle, Dermatóloga en Cali, Dermatóloga San Fernando Cali, Clínica O'Byrne Cali, Cirugía dermatológica Cali, Biopsias de piel Cali, Cauterización cutánea, Bótox Cali, Bioestimuladores, Alopecia, Manchas" />
   <meta name="author" content="Dra. Luz Angela Castañeda" />
   <link rel="icon" type="image/jpeg" href="logo.jpeg" />
 
   <!-- Open Graph para compartir en WhatsApp y Redes Sociales -->
   <meta property="og:title" content="Dra. Luz Angela Castañeda | Dermatóloga - Univalle" />
-  <meta property="og:description" content="Dermatología Clínica y Estética en Cali · Clínica O'Byrne (Cra 26 # 2 - 38, Barrio San Fernando Viejo). Armonización natural con Bótox y bioestimuladores. @drluzangelacastaneda" />
+  <meta property="og:description" content="Dermatología Clínica, Estética y Quirúrgica en Cali · Clínica O'Byrne (Cra 26 # 2 - 38, Barrio San Fernando Viejo). Bótox, bioestimuladores, hidratación profunda y cirugía dermatológica. @drluzangelacastaneda" />
   <meta property="og:image" content="logo.jpeg" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_CO" />
@@ -28,7 +28,7 @@
     "@type": "Physician",
     "name": "Dra. Luz Angela Castañeda",
     "alternateName": "drluzangelacastaneda",
-    "description": "Dermatóloga - Univalle. Médico especialista en Dermatología con enfoque integral clínico y estético en Cali.",
+    "description": "Dermatóloga - Univalle. Médico especialista en Dermatología Clínica, Estética y Quirúrgica en Cali.",
     "alumniOf": {
       "@type": "CollegeOrUniversity",
       "name": "Universidad del Valle (Univalle)"
@@ -276,9 +276,9 @@
     }
 
     .hero-highlights {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2.2rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.4rem;
       margin-top: 2.4rem;
       padding-top: 1.75rem;
       border-top: 1px solid var(--border-soft);
@@ -286,15 +286,18 @@
 
     .highlight-item strong {
       display: block;
-      font-size: 1.05rem;
+      font-size: 1.02rem;
       font-weight: 700;
       color: var(--corp-magenta);
+      margin-bottom: 0.15rem;
     }
 
     .highlight-item span {
-      font-size: 0.88rem;
+      font-size: 0.86rem;
       font-weight: 300;
       color: var(--text-muted);
+      line-height: 1.35;
+      display: block;
     }
 
     .hero-media {
@@ -402,7 +405,7 @@
 
     .about-photo img {
       width: 100%;
-      height: 440px;
+      height: 460px;
       object-fit: cover;
       object-position: center top;
       display: block;
@@ -473,21 +476,21 @@
       color: var(--text-muted);
     }
 
-    /* Servicios */
+    /* Servicios (3 Columnas: Clínica, Estética y Quirúrgica) */
     .services-section {
       background-color: var(--corp-blush-soft);
     }
 
     .services-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2rem;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75rem;
     }
 
     .service-category {
       background: var(--bg-white);
       border-radius: var(--radius);
-      padding: 2.4rem;
+      padding: 2.1rem;
       box-shadow: var(--shadow);
       border: 1px solid var(--border-soft);
       display: flex;
@@ -496,7 +499,7 @@
     }
 
     .service-category h3 {
-      font-size: 1.85rem;
+      font-size: 1.7rem;
       color: var(--corp-plum);
       margin-bottom: 0.6rem;
     }
@@ -504,21 +507,21 @@
     .service-intro {
       color: var(--text-muted);
       font-weight: 300;
-      font-size: 0.96rem;
-      margin-bottom: 1.5rem;
+      font-size: 0.94rem;
+      margin-bottom: 1.4rem;
     }
 
     .service-list {
       list-style: none;
       display: grid;
-      gap: 0.95rem;
+      gap: 0.85rem;
       margin-bottom: 1.8rem;
     }
 
     .service-list li {
-      padding-left: 1.5rem;
+      padding-left: 1.4rem;
       position: relative;
-      font-size: 0.96rem;
+      font-size: 0.93rem;
       font-weight: 300;
     }
 
@@ -527,7 +530,7 @@
       position: absolute;
       left: 0;
       color: var(--corp-magenta);
-      font-size: 0.85rem;
+      font-size: 0.82rem;
     }
 
     .service-list strong {
@@ -538,7 +541,7 @@
     .card-link {
       color: var(--corp-magenta);
       font-weight: 600;
-      font-size: 0.94rem;
+      font-size: 0.93rem;
       display: inline-flex;
       align-items: center;
       gap: 0.4rem;
@@ -557,8 +560,8 @@
 
     .gallery-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.6rem;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.4rem;
     }
 
     .gallery-item {
@@ -578,40 +581,41 @@
 
     .gallery-item img {
       width: 100%;
-      height: 360px;
+      height: 310px;
       object-fit: cover;
-      object-position: center;
+      object-position: center top;
       display: block;
       background-color: #fff;
     }
 
     .gallery-caption {
-      padding: 1.15rem 1.3rem;
+      padding: 1.05rem 1.15rem;
       background: #fff;
       flex-grow: 1;
     }
 
     .gallery-caption span {
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 1.2px;
+      letter-spacing: 1.1px;
       color: var(--corp-magenta);
       display: block;
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.2rem;
     }
 
     .gallery-caption h4 {
-      font-size: 1.02rem;
+      font-size: 0.98rem;
       color: var(--corp-plum);
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.25rem;
     }
 
     .gallery-caption p {
-      font-size: 0.86rem;
+      font-size: 0.84rem;
       font-weight: 300;
       color: var(--text-muted);
       margin: 0;
+      line-height: 1.45;
     }
 
     /* Ubicación y Google Maps */
@@ -678,7 +682,7 @@
       display: block;
     }
 
-    /* Contacto y Citas (Fondo Corporativo Oscuro R:56 G:18 B:42 + Magenta R:175 G:0 B:108) */
+    /* Contacto y Citas */
     .contact-card {
       background: linear-gradient(135deg, var(--corp-plum) 0%, #5B1240 60%, var(--corp-magenta) 100%);
       color: #fff;
@@ -823,17 +827,27 @@
     }
 
     /* Responsivo */
-    @media (max-width: 960px) {
-      .hero-grid,
-      .about-box,
-      .services-grid,
-      .location-grid,
-      .contact-card {
+    @media (max-width: 1024px) {
+      .services-grid {
         grid-template-columns: 1fr;
       }
 
       .gallery-grid {
         grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 960px) {
+      .hero-grid,
+      .about-box,
+      .location-grid,
+      .contact-card {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-highlights {
+        grid-template-columns: 1fr;
+        gap: 1rem;
       }
 
       nav ul {
@@ -897,7 +911,7 @@
         <span class="badge">Dermatóloga - Univalle · San Fernando Viejo, Cali</span>
         <h1>Salud dermatológica y <span>armonización natural</span> para tu piel</h1>
         <p>
-          Soy la <strong>Dra. Luz Angela Castañeda</strong>, médico especialista en Dermatología egresada de la <strong>Universidad del Valle (Univalle)</strong> con enfoque integral clínico y estético en Cali. Te acompaño en el diagnóstico preciso de enfermedades de la piel, pelo y uñas, así como en tratamientos estéticos preventivos con resultados naturales.
+          Soy la <strong>Dra. Luz Angela Castañeda</strong>, médico especialista en Dermatología egresada de la <strong>Universidad del Valle (Univalle)</strong> con enfoque integral clínico, estético y quirúrgico en Cali. Te acompaño en el diagnóstico preciso y tratamiento especializado de enfermedades de la piel, pelo y uñas.
         </p>
         <div class="hero-actions">
           <a class="btn-primary" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20Angela,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20para%20agendar%20una%20cita%20en%20Cali." target="_blank" rel="noopener">
@@ -913,7 +927,11 @@
           </div>
           <div class="highlight-item">
             <strong>Estética Preventiva</strong>
-            <span>Bótox y bioestimuladores</span>
+            <span>Bótox, bioestimuladores e hidratación profunda</span>
+          </div>
+          <div class="highlight-item">
+            <strong>Cirugía Dermatológica</strong>
+            <span>Biopsias, cauterización y resección de lesiones</span>
           </div>
         </div>
       </div>
@@ -930,22 +948,22 @@
     </div>
   </section>
 
-  <!-- Perfil Profesional -->
+  <!-- Perfil Profesional (Con nueva foto dra3.jpeg) -->
   <section id="perfil" class="about-section">
     <div class="container">
       <div class="about-box">
         <div class="about-photo">
-          <img src="dra2.jpeg" alt="Consulta dermatológica Dra. Luz Angela Castañeda en Cali" />
+          <img src="dra3.jpeg" alt="Dra. Luz Angela Castañeda en su consultorio de Cali" />
         </div>
 
         <div>
           <span class="section-tag">Perfil Profesional</span>
           <h3>Ciencia dermatológica y cuidado personalizado</h3>
           <p>
-            Cada piel tiene una historia y necesidades únicas. Como <strong>Dermatóloga - Univalle</strong>, mi práctica médica en <strong>Cali</strong> integra el rigor diagnóstico de la dermatología clínica con técnicas estéticas mínimamente invasivas diseñadas para preservar la expresión y salud natural del paciente.
+            Cada piel tiene una historia y necesidades únicas. Como <strong>Dermatóloga - Univalle</strong>, mi práctica médica en <strong>Cali</strong> integra el rigor diagnóstico de la dermatología clínica y quirúrgica con técnicas estéticas mínimamente invasivas diseñadas para preservar la expresión y salud natural del paciente.
           </p>
           <p>
-            Desde el control médico de patologías cutáneas hasta la bioestimulación de colágeno, cada valoración comienza con un examen detallado para ofrecerte un plan terapéutico claro, honesto y seguro.
+            Desde el control médico de patologías cutáneas y procedimientos quirúrgicos ambulatorios hasta la bioestimulación de colágeno, cada valoración comienza con un examen detallado para ofrecerte un plan terapéutico claro y seguro.
           </p>
           <a class="social-pill" href="https://www.instagram.com/drluzangelacastaneda/" target="_blank" rel="noopener">
             Síguenos en redes: @drluzangelacastaneda ↗
@@ -954,15 +972,15 @@
           <div class="pillars">
             <div class="pillar">
               <h4>Respaldo Académico Univalle</h4>
-              <p>Formación especializada en diagnóstico y manejo integral de patologías de piel, pelo y uñas.</p>
+              <p>Formación especializada en diagnóstico clínico, cirugía dermatológica y manejo integral de piel, pelo y uñas.</p>
             </div>
             <div class="pillar">
               <h4>Resultados Naturales y Preventivos</h4>
-              <p>Armonización facial sutil con inyectables que mejora la calidad, firmeza e hidratación de la piel sin alterar tus facciones.</p>
+              <p>Armonización facial sutil con Bótox, bioestimuladores e hidratación profunda sin alterar tus facciones.</p>
             </div>
             <div class="pillar">
               <h4>Atención Médica Directa en San Fernando Viejo</h4>
-              <p>Valoración y seguimiento personalizado en Clínica O'Byrne (Cra 26 # 2 - 38) con insumos médicos certificados.</p>
+              <p>Valoración y procedimientos realizados directamente en Clínica O'Byrne (Cra 26 # 2 - 38) con insumos médicos certificados.</p>
             </div>
           </div>
         </div>
@@ -970,7 +988,7 @@
     </div>
   </section>
 
-  <!-- Servicios -->
+  <!-- Servicios (3 Columnas: Clínica, Estética y Quirúrgica) -->
   <section id="servicios" class="services-section">
     <div class="container">
       <div class="section-header">
@@ -1020,20 +1038,49 @@
             Consultar valoración estética →
           </a>
         </div>
+
+        <!-- Tarjeta Quirúrgica -->
+        <div class="service-category">
+          <div>
+            <span class="section-tag">Procedimientos Ambulatorios</span>
+            <h3>Cirugía Dermatológica</h3>
+            <p class="service-intro">
+              Intervenciones dermatológicas precisas bajo estrictos protocolos de bioseguridad y cuidado estético:
+            </p>
+            <ul class="service-list">
+              <li><strong>Cirugía Dermatológica:</strong> Procedimientos ambulatorios especializados con mínima cicatriz y recuperación guiada.</li>
+              <li><strong>Resección de Lesiones Cutáneas:</strong> Extirpación médica segura de lunares, quistes, fibromas y otras lesiones benignas o sospechosas.</li>
+              <li><strong>Biopsias de Piel:</strong> Toma de muestra histopatológica precisa para confirmar diagnósticos complejos con certeza.</li>
+              <li><strong>Cauterización Cutánea:</strong> Eliminación controlada de verrugas, queratosis y lesiones superficiales de la piel.</li>
+            </ul>
+          </div>
+          <a class="card-link" href="https://wa.me/573043953075?text=Hola%20Dra.%20Luz%20Angela,%20quisiera%20informaci%C3%B3n%20sobre%20procedimientos%20de%20Cirug%C3%ADa%20Dermatol%C3%B3gica." target="_blank" rel="noopener">
+            Consultar procedimiento quirúrgico →
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Galería Clínica y Casos Reales -->
+  <!-- Galería Clínica y Casos Reales (Con dra4.jpeg y dra2.jpeg integradas) -->
   <section id="galeria" class="gallery-section">
     <div class="container">
       <div class="section-header">
         <span class="section-tag">Práctica Médica &amp; Resultados</span>
         <h2>Cuidado basado en evidencia científica</h2>
-        <p>Conoce nuestros protocolos clínicos y estéticos diseñados a la medida de cada paciente.</p>
+        <p>Conoce nuestros protocolos clínicos, quirúrgicos y estéticos diseñados a la medida de cada paciente.</p>
       </div>
 
       <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="dra4.jpeg" alt="Dra. Luz Angela Castañeda preparando protocolo inyectable dermatológico" />
+          <div class="gallery-caption">
+            <span>Precisión Médica</span>
+            <h4>Preparación de Inyectables</h4>
+            <p>Insumos certificados y dosificación personalizada para resultados seguros y naturales.</p>
+          </div>
+        </div>
+
         <div class="gallery-item">
           <img src="botox1.jpeg" alt="Resultados antes y después protocolo Bótox más glow Dra. Luz Angela Castañeda" />
           <div class="gallery-caption">
@@ -1071,6 +1118,15 @@
         </div>
 
         <div class="gallery-item">
+          <img src="dra2.jpeg" alt="Valoración dermatológica personalizada en Cali" />
+          <div class="gallery-caption">
+            <span>Valoración Integral</span>
+            <h4>Atención Médica Cercana</h4>
+            <p>Evaluación detallada de piel, pelo y uñas para diseñar tu plan terapéutico ideal.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
           <img src="diferentes.jpeg" alt="Rutinas personalizadas según cada tipo de piel" />
           <div class="gallery-caption">
             <span>Salud Cutánea</span>
@@ -1080,10 +1136,10 @@
         </div>
 
         <div class="gallery-item">
-          <img src="procedimiento.jpg" alt="Procedimiento inyectable realizado por la Dra. Luz Angela Castañeda" />
+          <img src="procedimiento.jpg" alt="Procedimiento estético realizado por la Dra. Luz Angela Castañeda" />
           <div class="gallery-caption">
             <span>Atención Especializada</span>
-            <h4>Inyectables y Bioestimulación</h4>
+            <h4>Bioestimulación e Hidratación</h4>
             <p>Técnica médica precisa para revitalizar y mejorar la calidad estructural de la piel.</p>
           </div>
         </div>
